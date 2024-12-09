@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مقهى بسيط</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation & Header -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">الرئيسية</a></li>
+        <li><a href="#menu">القائمة</a></li>
+        <li><a href="#about">عنّا</a></li>
+        <li><a href="#contact">التواصل</a></li>
+      </ul>
+    </nav>
+    <h1>مقهى الراحة</h1>
+  </header>
+
+  <!-- Section Landing -->
+  <section id="home">
+    <div class="landing">
+      <img src="imge/غلاف.jpg"alt= "واجه الغلاف " class="landing-img">
+      <div class="landing-text">
+        <h2>أجواء هادئة وخدمات متميزة</h2>
+        <p>استمتع بتجربة رائعة في مقهى الراحة مع أشهى المشروبات والأطعمة في جو مريح.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards: Menu Items -->
+  <section id="menu">
+    <h2>قائمة الطعام</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="imge/good.jpg"alt="طبق1">
+        <h3>كابتشينو</h3>
+        <p>مشروب قهوة مميز مع رغوة الحليب الكريمية.</p>
+      </div>
+      <div class="card">
+        <img src="imge/dish2.jpg" alt="طبق 2">
+        <h3>سندويش دجاج</h3>
+        <p>سندويش دجاج طازج مع صلصة خاصة وخضروات.</p>
+      </div>
+      <div class="card">
+        <img src="imge/tea.jpg" alt="طبق 3">
+        <h3>شاي مثلج</h3>
+        <p>شاي مثلج منعش مع نكهة الليمون الطازج.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section About Us -->
+  <section id="about">
+    <h2>عنّا</h2>
+    <p>مقهى الراحة يقدم لك تجربة لا مثيل لها. منذ عام 2010، نقدم أشهى المشروبات والأطعمة في بيئة مريحة ودافئة. نحن نؤمن بجعل كل لحظة هنا مميزة.</p>
+  </section>
+
+  <!-- Forms: Reservation or Contact -->
+  <section id="contact">
+    <h2>اتصل بنا أو احجز طاولة</h2>
+    <form action="#">
+      <label for="name">الاسم:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">الرسالة:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">إرسال</button>
+    </form>
+
+    <div class="location">
+      <h3>موقعنا:</h3>
+      <div id="map">
+        <!-- رابط Google Maps أو تضمين الخريطة -->
+        <iframe src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAP_EMBED_LINK" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <div class="working-hours">
+      <h3>ساعات العمل:</h3>
+      <p>من الأحد إلى الخميس: 9:00 صباحاً - 10:00 مساءً</p>
+      <p>الجمعة والسبت: 12:00 مساءً - 12:00 صباحاً</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 مقهى الراحة. جميع الحقوق محفوظة.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
